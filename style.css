@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.dark-mode {
+    background-color: #11091a;
+    background-image: url(img/escuro1.jpg);
+    color: #ffffff;
+    transition: 0.5s;
+    background-position: top;
+}
+
+.dark-mode header {
+    background-color: #33323794;
+}
+
+.dark-mode main {
+    background-color: #2f2f4d;
+    background-image: url(https://img.freepik.com/fotos-gratis/escuro-parede-de-cimento-cinza_1194-6671.jpg?w=996&t=st=1682048571~exp=1682049171~hmac=5abecf7dc8843654da6c215883f818eb8042613e7b0b6f9b0758dc3f8d22f253);
+}
+
+.dark-mode footer {
+    background-color: #333237;
+}
+
+body {
+    transition: 0.5s;
+    background-image: url(img/claro1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.center {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2%;
+    display: flex;
+}
+
+header {
+    margin-bottom: 150px;
+    border-bottom: 2px solid #0093E9;
+    background-color: #ffffff91;
+}
+
+.btn-modoescuro {
+    text-align: right;
+    width: 80%;
+}
+
+.btn-modoescuro > button {
+    font-size: 1em;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2em;
+    width: 80%;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(https://img.freepik.com/fotos-gratis/textura-suja-da-parede-de-concreto_1149-1300.jpg?w=996&t=st=1682048357~exp=1682048957~hmac=73a6ee9d69b944035b32e78605cfcee30119f5afed7bafa489054bf87ff2e0fb);
+    /* background-image: url(https://img.freepik.com/fotos-gratis/posteres-rasgados_1194-2413.jpg?w=996&t=st=1682048632~exp=1682049232~hmac=d7b0665b4e4741ab9ece3d45fa49af9b3ff215d749003daff5aa07d39e0be4c3); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    border-radius: 15px;
+    padding: 2%;
+    font-size: 2em;
+}
+
+main > p {
+    margin-bottom: 10%;
+}
+
+main > input {
+    margin-bottom: 5%;
+    font-size: 1em;
+    width: 20%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+main > button {
+    font-size: 1em;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+#tabela-tabuada {
+    text-align: center;
+    margin: 5% auto;
+    background-color: #00000051;
+    padding: 5%;
+    border-radius: 50px;
+}
+
+footer {
+    margin-top: 40vh;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 1%;
+}
+
+footer > a {
+    text-decoration: none;
+    color: #0093E9;
+}
